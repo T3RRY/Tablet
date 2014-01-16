@@ -1,0 +1,169 @@
+/* 	This is the layout of the site. please take not of sections that are in place:
+	The LAYOUT section is one that holds all the background of the App. therefore the 
+	body wrap or content etc.*/
+/*------------------------------------------------------------------------------------*/
+
+/*----LAYOUT----*/
+body {
+	background: url("images/DefaultDesktop.jpg")repeat-y scroll 50% 0 #FFFFFF;
+	color: #FFFFFF;
+	font: 11px/1.55 Tahoma,Helvetica,sans-serif;
+	text-align: center;
+	padding-right: 0px;
+	overflow: hidden;
+}
+
+#header-container{
+	background-color:#43AF38;
+	height: 40px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-family:Verdana, Geneva,sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: left;
+	margin-top: 10px;
+}
+#top-nav-container {
+    border-top: 1px solid #43AF38;
+	background: url("images/menu_bg.jpg");
+	overflow:hidden;
+	background-color: #2B2B2B;
+	text-align: left;
+}
+/*------------------------------------------------------------------------------------*/
+
+/*---Top Navigation---*/
+ul.topnav li{
+	 list-style-type: none;
+	 text-decoration: none;
+	 display: inline;
+	 font-weight: bold;
+	 color: #FFFFFF;
+	 padding-left:20px;
+}
+ul.topnav a{
+	  text-decoration: none;
+	  cursor: pointer;
+	  display: inline;
+	  color: #FFFFFF;
+}
+#photo{
+	text-align: left;
+	background-color: #FFF;
+	color: #000;
+	margin-top: 10px;
+	/*padding-top: 20px;*/
+	padding-bottom: 20px;
+	height: 280px;
+}
+#basicinfo_header{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+	background: url("images/menu_bg.jpg");
+	color: #FFF;
+}
+#divbox2{
+	background-color: #FFF;
+	color: #000;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	height: 280px;
+	}
+
+form[name="form1"]{
+	margin-right:20px
+	color:#000;
+	}
+input {
+	color: #000;
+	z-index: 2;
+	overflow: hidden;
+	overflow-x: 0;
+	overflow-y: 0;
+	clip: inherit;
+}
+
+#divbox1{
+	color: #000;
+	margin-top: 10px;
+	border: #000;
+	background: #FFF;
+	overflow: hidden;
+	height: 135px;
+}
+#background_info{
+	margin-top: 10px;
+	background-color: #FFF;
+	color: #000;
+	padding-bottom: 10px;
+	height: 238px;
+}
+
+#contact_detail{
+	margin-top: 10px;
+	background-color: #FFF;
+	color: #000;
+	padding-bottom: 10px;
+	height: 238px;
+}
+#admission_details_header{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+	background: url("images/menu_bg.jpg");
+	color: #FFF;
+	text-align: center;
+	text-decoration: underline;
+	}
+#background_info_header{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+	background: url("images/menu_bg.jpg");
+	color: #FFF;
+	text-align: center;
+	text-decoration: underline;
+	}
+#misc_header{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+	background: url("images/menu_bg.jpg");
+	color: #FFF;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#contact_details{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+	background: url("images/menu_bg.jpg");
+	color: #FFF;
+	text-align: center;
+	text-decoration: underline;
+}
+.thumb {
+   
+  }
+
+input[name=file[]]{
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}

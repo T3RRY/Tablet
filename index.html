@@ -1,0 +1,384 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="Layout.css" rel="stylesheet" type="text/css">
+<link href="typologystyle.css" rel="stylesheet" type="text/css">
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+<script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="header-container">HOME CARE SERVICES & NURSING AGENCY</div>
+  <div id="top-nav-container">
+  		<ul class="topnav">
+		<li><a href="#">New</a></li>
+		<li><a href="#">Edit</a></li>
+		<li><a href="#">Delete</a></li>
+		</ul>
+  </div>
+        
+  <div id="Accordion">
+    <div id="Accordion1" class="Accordion" tabindex="0">
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">RESIDENTS</div>
+        <div class="AccordionPanelContent">
+        					<ul class="sidecontentnav">
+							<li><a href="#"><span>RESIDENTS</span></a></li>
+							<li><a href="#"><span>CONTACTS</span></a></li>
+							<li><a href="#"><span>DIARY</span></a></li>
+							<li><a href="#"><span>ASSESSMENT</span></a></li>
+							<li><a href="#"><span>CARE PLAN</span></a></li>
+							<li><a href="#"><span>MEDICAL</span></a></li>
+							<li><a href="#"><span>PROGRESS PLAN</span></a></li>
+							</ul></div>
+      </div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">HOME</div>
+        <div class="AccordionPanelContent">
+        					<ul class="sidecontentnav">
+							<li><a href="#"><span>CONTACTS</span></a></li>
+							<li><a href="#"><span>DIARY</span></a></li>
+							<li><a href="#"><span>ROTA</span></a></li>
+							<li><a href="#"><span>A & I</span></a></li>
+							<li><a href="#"><span>ATTACHMENTS</span></a></li>
+							<li><a href="#"><span>PROCEDURES</span></a></li>
+							</ul></div>
+      </div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">EMPOLYEES</div>
+        <div class="AccordionPanelContent">
+        					<ul class="sidecontentnav">
+							<li><a href="#"><span>EMPLOYEE</span></a></li>
+							<li><a href="#"><span>ABSENCES</span></a></li>
+							<li><a href="#"><span>TRAINING</span></a></li>
+							<li><a href="#"><span>REVIEWS</span></a></li>
+							<li><a href="#"><span>SHIFT PATTERN</span></a></li>
+							<li><a href="#"><span>CONTRACT</span></a></li>
+							</ul></div>
+      </div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">ADMINISTRATION</div>
+        <div class="AccordionPanelContent">
+        					<ul class="sidecontentnav">
+							<li><a href="#"><span>ADMIN</span></a></li>
+							<li><a href="#"><span>SECURITY</span></a></li>
+							<li><a href="#"><span>REPORTS</span></a></li>
+							<li><a href="#"><span>LEAVE/HOLIDAYS</span></a></li>
+							<li><a href="#"><span>POLICIES</span></a></li>
+							<li><a href="#"><span>COMPLAINTS</span></a></li>
+							<li><a href="#"><span>POLICIES</span></a></li>
+							</ul></div>
+      </div>
+    </div>
+  </div>
+  <div align="left" id="photo">
+    <table width="95%" align="center">
+        <tr>
+        <th colspan="2" scope="row"><div align="center" id="basicinfo_header"><strong>BASIC INFORMATION</strong></div></th>
+      </tr>
+      <tr>
+        <th scope="row">&nbsp;</th>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <th width="28%" scope="row"> Title:</th>
+        <td width="72%"><label>
+          <select name="title" id="title">
+<option value="1">Mr</option>
+<option value="2">Mrs</option>
+<option value="3">Miss</option>
+<option value="4">Ms</option>
+<option value="5">Dr</option>
+<option value="6">Prof</option>
+<option value="7">Other</option>
+          </select>
+        </label></td>
+      </tr>
+      <tr>
+        <th scope="row">Forename:</th>
+        <td><input type="text" name="forename" id="forename"></td>
+      </tr>
+      <tr>
+        <th scope="row">Surname: </th>
+        <td><input type="text" name="Surname" id="Surname"></td>
+      </tr>
+      <tr>
+        <th scope="row">Known As: </th>
+        <td><input type="text" name="knownas" id="knownas"></td>
+      </tr>
+      <tr>
+        <th scope="row">Gender :</th>
+        <td><table width="30%" align="left">
+          <tr>
+            <th width="32%" scope="row"><label>Male</label>            </th>
+            <td width="68%"><p>
+              <label>
+                <input type="radio" name="gender" value="Male" id="gender_0">
+              </label>
+            </p></td>
+          </tr>
+          <tr>
+            <th scope="row"><label>Female</label>            </th>
+            <td><input type="radio" name="gender" value="Female" id="gender_1"></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <th scope="row">Age: </th>
+        <td><input type="text" name="age" id="age"></td>
+      </tr>
+      <tr>
+        <th scope="row">DOB: </th>
+        <td><input type="text" name="DOB" id="DOB"></td>
+      </tr>
+      <tr>
+        <th scope="row">Resid. ID: </th>
+        <td><input type="text" name="residentID" id="residentID"></td>
+      </tr>
+    </table>
+  </div>
+  <div id="divbox2">
+    <table width="95%" align="center">
+      <tr>
+        <th colspan="3" scope="row"><div id="admission_details_header">ADMISIION DETAILS</div></th>
+      </tr>
+      <tr>
+        <th scope="row">&nbsp;</th>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <th width="32%" scope="row">Date: </th>
+        <td colspan="2"><input type="text" name="admissiondate" id="admissiondate"></td>
+      </tr>
+      <tr>
+        <th nowrap scope="row"><label for="height">Height (cm):</label>        </th>
+        <td colspan="2" nowrap><input type="text" name="height" id="height"></td>
+      </tr>
+      <tr>
+        <th scope="row">Room: </th>
+        <td colspan="2"><input type="text" name="room" id="room"></td>
+      </tr>
+      <tr>
+        <th scope="row">Keyworker: </th>
+        <td colspan="2"><input type="text" name="keyworker" id="keyworker"></td>
+      </tr>
+      <tr>
+        <th scope="row">Care Group: </th>
+        <td colspan="2"><input type="text" name="caregroup" id="caregroup"></td>
+      </tr>
+      <tr>
+        <th height="26" scope="row">Type: </th>
+        <td colspan="2"><input type="text" name="type" id="type"></td>
+      </tr>
+      <tr>
+        <th height="28" colspan="3" scope="row"><div id="misc_header">PREFERENCES</div></th>
+      </tr>
+      <tr>
+        <th height="22" colspan="2" scope="row">Allow Health Info. Exchange:
+          
+        </th>
+        <td width="16%"><label>
+          <input type="checkbox" name="allow_health_info_exchange" id="allow_health_info_exchange">
+        </label></td>
+      </tr>
+      <tr>
+        <th colspan="2" scope="row"><fieldset>
+          <legend></legend>
+          <label>Consent Form Obtained:</label>
+        </fieldset></th>
+        <td width="16%"><input type="checkbox" name="Consent_Received" id="Consent_Received"></td>
+      </tr>
+    </table>
+  </div>
+  <div id="divbox1">
+   
+    <table width="95%" align="left">
+    <tr>
+    <td><output id="list"></output></td>
+  </tr>
+  <tr>
+    <td> <input type="file" id="files" name="files[]"/></td>
+  </tr>
+</table>
+
+<script>
+  function handleFileSelect(evt) {
+    var files = evt.target.files; // FileList object
+
+    // Loop through the FileList and render image files as thumbnails.
+    for (var i = 0, f; f = files[i]; i++) {
+
+      // Only process image files.
+      if (!f.type.match('image.*')) {
+        continue;
+      }
+
+      var reader = new FileReader();
+
+      // Closure to capture the file information.
+      reader.onload = (function(theFile) {
+        return function(e) {
+          // Render thumbnail.
+          var span = document.createElement('span');
+          span.innerHTML = ['<img class="thumb" width="150" height="129" src="', e.target.result,
+                            '" title="', escape(theFile.name), '"/>'].join('');
+          document.getElementById('list').insertBefore(span, null);
+        };
+      })(f);
+
+      // Read in the image file as a data URL.
+      reader.readAsDataURL(f);
+    }
+  }
+
+  document.getElementById('files').addEventListener('change', handleFileSelect, false);
+</script>
+  </div>
+  <div id="background_info">
+    <table width="95%">
+      <tr>
+        <th colspan="2" scope="row"><div id="background_info_header">BACKGROUND INFORMATION</div></th>
+      </tr>
+      <tr>
+        <th width="35%" scope="row">&nbsp;</th>
+        <td width="65%">&nbsp;</td>
+      </tr>
+      <tr>
+        <th scope="row"> Brith Place:</th>
+        <td><label>
+          <input type="text" name="place_of_birth" id="place_of_birth">
+        </label></td>
+      </tr>
+      <tr>
+        <th scope="row">Marital:</th>
+        <td><label>
+          <select name="marital_status" id="marital_status">
+  <option value="Single">Single</option>
+  <option value="Married">Married</option>
+  <option value="Divorced">Divorced</option>
+  <option value="Separated">Separated</option>
+  <option value="Widowed">Widowed</option>
+            </select>
+        </label></td>
+      </tr>
+      <tr>
+        <th scope="row">Occupation: </th>
+        <td><label>
+          <input type="text" name="occupation" id="occupation">
+        </label></td>
+      </tr>
+      <tr>
+        <th scope="row">Religion:</th>
+        <td><label>
+          <select name="Religion" id="Religion">
+   <option value="No Religion" selected>No Religion</option>
+  <option value="Christian">Christian</option>
+  <option value="Buddhist">Buddhist</option>
+  <option value="Hindu">Hindu</option>
+  <option value="Jewish">Jewish</option>
+  <option value="Muslim">Muslim</option>
+  <option value="Sikh">Sikh</option>
+  <option value="Perfer Not To Say">Perfer Not To Say</option>
+          </select>
+        </label></td>
+      </tr>
+      <tr>
+        <th height="26" scope="row">Ethnicity:</th>
+        <td><label>
+          <select name="ethnic_origin" id="ethnic_origin">
+           <option value="White" selected>White</option>
+  <option value="Asian/Asian British">Asian/Asian British</option>
+  <option value="Black/Black British">Black/Black British</option>
+  <option value="Other ethnic group">Other ethnic group</option>
+  </select>
+        </label></td>
+      </tr>
+      <tr>
+        <th scope="row">NI:</th>
+        <td><label>
+          <input type="text" name="NI_number" id="NI_number">
+        </label></td>
+      </tr>
+      <tr>
+        <th scope="row">Nationality: </th>
+        <td><label>
+          <input type="text" name="Nationality" id="Nationality">
+        </label></td>
+      </tr>
+    </table>
+  </div>
+  <div id="contact_detail">
+    <table width="95%">
+      <tr>
+        <th colspan="2" scope="row"><div id="contact_details">CONTACT DETAILS</div></th>
+      </tr>
+      <tr>
+        <th width="24%" scope="row">&nbsp;</th>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <th scope="row">Address:</th>
+        <td><label>
+          <input type="text" name="address" id="address">
+        </label></td>
+      </tr>
+      <tr>
+        <th height="24" scope="row">Line 1: </th>
+        <td><label>
+          <input type="text" name="line1" id="line1">
+        </label></td>
+      </tr>
+      <tr>
+        <th height="26" scope="row">Line 2:</th>
+        <td><label>
+          <input type="text" name="line 2" id="line 2">
+        </label></td>
+      </tr>
+      <tr>
+        <th scope="row">&nbsp;</th>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <th scope="row">Post Code: </th>
+        <th scope="row"><input type="text" name="postcode" id="postcode"></th>
+      </tr>
+      <tr>
+        <th height="29" scope="row">Telephone:</th>
+        <th height="29" scope="row"><input type="text" name="Tel" id="Tel"></th>
+      </tr>
+      <tr>
+        <th scope="row">&nbsp;</th>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="footer">copyright protected @Terry</div>
+</div>
+<script type="text/javascript">
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+</script>
+</body>
+</html>

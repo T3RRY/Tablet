@@ -1,0 +1,809 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		9;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	15;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 88.626%;
+	padding-left: 1.1869%;
+	padding-right: 1.1869%;
+}
+#LayoutDiv1 {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#header-container {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#top-nav-container {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Accordion {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#main-container {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#details {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#basic_information {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#admission_details {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#background_infomation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contact_details {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#residents_notes {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#basic_info {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#resident_photo {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#admission_detail {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#contact_detail {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#residents_basic_info {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#Residents_photo {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#residents_admission_details {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#residents_contact {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#residents_background {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#top_layer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#second_layer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#third_layer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#personel_info {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#id_photo {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#background_info {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#admission_info {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#divbox1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#divbox2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#photo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#formdiv {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#formdiv2 {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#basicinfo_header {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#admission_details_header {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#background_info_header {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+#misc_header {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 93.6231%;
+	padding-left: 0.6884%;
+	padding-right: 0.6884%;
+	border-color: #000;
+}
+#LayoutDiv1 {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 100%;
+	display: block;
+}
+#header-container {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#top-nav-container {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Accordion {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 21.0784%;
+	display: block;
+}
+#main-container {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 77.4509%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#details {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 100%;
+	display: block;
+}
+#basic_information {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 66.1764%;
+	display: block;
+}
+#admission_details {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#background_infomation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contact_details {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 100%;
+	display: block;
+}
+#residents_notes {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 43.6274%;
+	display: block;
+}
+#basic_info {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 100%;
+	display: block;
+}
+#resident_photo {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 9.8039%;
+	display: block;
+}
+#admission_detail {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 100%;
+	display: block;
+}
+#contact_detail {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 32.3529%;
+	display: block;
+}
+#residents_basic_info {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 66.1764%;
+	display: block;
+}
+#Residents_photo {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 21.0784%;
+	display: block;
+}
+#residents_admission_details {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 43.6274%;
+	display: block;
+}
+#residents_contact {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 43.6274%;
+	display: block;
+}
+#residents_background {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 100%;
+	display: block;
+}
+#top_layer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#second_layer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#third_layer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#personel_info {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 66.1764%;
+	display: block;
+}
+#id_photo {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 21.0784%;
+	display: block;
+}
+#background_info {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 32.3529%;
+	display: block;
+}
+#admission_info {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 43.6274%;
+	display: block;
+}
+#divbox1 {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 9.8039%;
+	display: block;
+}
+#divbox2 {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 32.3529%;
+	display: block;
+}
+#photo {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 32.3529%;
+	display: block;
+}
+#formdiv {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 100%;
+	display: block;
+}
+#formdiv2 {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 100%;
+	display: block;
+}
+#basicinfo_header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#admission_details_header {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 100%;
+	display: block;
+}
+#background_info_header {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 32.3529%;
+	display: block;
+}
+#misc_header {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 89.0217%;
+	max-width: 1232px;
+	padding-left: 0.4891%;
+	padding-right: 0.4891%;
+	margin: auto;
+}
+
+#LayoutDiv1{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: block;
+}
+
+#header-container {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#top-nav-container {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Accordion {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 15.7509%;
+	display: block;
+}
+#main-container {
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 83.1501%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/*---Side Navigation, The Content---*/
+ul.sidecontentnav li{
+	text-decoration: none;
+	font-weight:bold;
+	cursor: pointer;
+	display: block;
+	color: #FFFFFF;
+	margin: 14px 0;
+	text-align: left;
+}
+ul.sidecontentnav a{
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+	color: #FFFFFF;
+}
+#top_layer{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#second_layer{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#third_layer{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#personel_info{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 74.7252%;
+	display: block;
+}
+
+
+#id_photo{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 15.7509%;
+	display: block;
+}
+#background_info{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: block;
+}
+
+
+
+#admission_info{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 49.4505%;
+	display: block;
+}
+
+#residents_contact{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 41.0256%;
+	display: block;
+}
+
+#residents_notes{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 49.4505%;
+	display: block;
+}
+
+#divbox1{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 15.7509%;
+	display: block;
+}
+
+#divbox2{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: block;
+}
+
+#photo{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: block;
+}
+
+#basic_info{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: block;
+}
+
+#formdiv{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 24.1758%;
+	display: block;
+}
+
+#formdiv2{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 15.7509%;
+	display: block;
+}
+
+#basicinfo_header{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+}
+
+#contact_detail{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 32.6007%;
+	display: block;
+}
+
+#admission_details_header{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+}
+
+#background_info_header{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#misc_header{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+}
+
+#contact_details{
+	clear: none;
+	float: left;
+	margin-left: 1.0989%;
+	width: 100%;
+	display: block;
+}
