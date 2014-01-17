@@ -5,6 +5,8 @@
 */
 img, object, embed, video {
 	max-width: 100%;
+	margin-bottom: 2px;
+	margin-left: 2px;
 }
 /* IE 6 does not support max-width so default to width 100% */
 .ie6 img {
@@ -294,6 +296,13 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#logo {
+	clear: none;
+	float: left;
+	margin-left: 2.6785%;
+	width: 100%;
+	display: block;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -563,6 +572,13 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#logo {
+	clear: none;
+	float: left;
+	margin-left: 1.4705%;
+	width: 100%;
+	display: block;
+}
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -602,7 +618,7 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 15.7509%;
+	width: 24.1758%;
 	display: block;
 }
 #main-container {
@@ -759,9 +775,9 @@ ul.sidecontentnav a{
 }
 
 #basicinfo_header{
-	clear: none;
+	clear: both;
 	float: left;
-	margin-left: 1.0989%;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 }
@@ -806,4 +822,13 @@ ul.sidecontentnav a{
 	margin-left: 1.0989%;
 	width: 100%;
 	display: block;
+}
+
+#logo{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 7.326%;
+	display: block;
+	text-align: center;
 }

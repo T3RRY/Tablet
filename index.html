@@ -31,7 +31,9 @@ Do the following if you're using your customized build of modernizr (http://www.
 </head>
 <body>
 <div class="gridContainer clearfix">
-  <div id="header-container">HOME CARE SERVICES & NURSING AGENCY</div>
+  <div id="header-container">
+    <div id="logo"><img src="images/LOGO.jpg" width="53" height="46"></div>
+  HOME CARE SERVICES & NURSING AGENCY</div>
   <div id="top-nav-container">
   		<ul class="topnav">
 		<li><a href="#">New</a></li>
@@ -104,8 +106,8 @@ Do the following if you're using your customized build of modernizr (http://www.
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <th width="28%" scope="row"> Title:</th>
-        <td width="72%"><label>
+        <th width="38%" scope="row"> Title:</th>
+        <td width="62%"><label>
           <select name="title" id="title">
 <option value="1">Mr</option>
 <option value="2">Mrs</option>
@@ -170,7 +172,7 @@ Do the following if you're using your customized build of modernizr (http://www.
         <td colspan="2">&nbsp;</td>
       </tr>
       <tr>
-        <th width="32%" scope="row">Date: </th>
+        <th width="43%" scope="row">Date: </th>
         <td colspan="2"><input type="text" name="admissiondate" id="admissiondate"></td>
       </tr>
       <tr>
@@ -213,58 +215,14 @@ Do the following if you're using your customized build of modernizr (http://www.
       </tr>
     </table>
   </div>
-  <div id="divbox1">
-   
-    <table width="95%" align="left">
-    <tr>
-    <td><output id="list"></output></td>
-  </tr>
-  <tr>
-    <td> <input type="file" id="files" name="files[]"/></td>
-  </tr>
-</table>
-
-<script>
-  function handleFileSelect(evt) {
-    var files = evt.target.files; // FileList object
-
-    // Loop through the FileList and render image files as thumbnails.
-    for (var i = 0, f; f = files[i]; i++) {
-
-      // Only process image files.
-      if (!f.type.match('image.*')) {
-        continue;
-      }
-
-      var reader = new FileReader();
-
-      // Closure to capture the file information.
-      reader.onload = (function(theFile) {
-        return function(e) {
-          // Render thumbnail.
-          var span = document.createElement('span');
-          span.innerHTML = ['<img class="thumb" width="150" height="129" src="', e.target.result,
-                            '" title="', escape(theFile.name), '"/>'].join('');
-          document.getElementById('list').insertBefore(span, null);
-        };
-      })(f);
-
-      // Read in the image file as a data URL.
-      reader.readAsDataURL(f);
-    }
-  }
-
-  document.getElementById('files').addEventListener('change', handleFileSelect, false);
-</script>
-  </div>
   <div id="background_info">
     <table width="95%">
       <tr>
         <th colspan="2" scope="row"><div id="background_info_header">BACKGROUND INFORMATION</div></th>
       </tr>
       <tr>
-        <th width="35%" scope="row">&nbsp;</th>
-        <td width="65%">&nbsp;</td>
+        <th width="41%" scope="row">&nbsp;</th>
+        <td width="59%">&nbsp;</td>
       </tr>
       <tr>
         <th scope="row"> Brith Place:</th>
@@ -336,8 +294,8 @@ Do the following if you're using your customized build of modernizr (http://www.
         <th colspan="2" scope="row"><div id="contact_details">CONTACT DETAILS</div></th>
       </tr>
       <tr>
-        <th width="24%" scope="row">&nbsp;</th>
-        <td>&nbsp;</td>
+        <th width="41%" scope="row">&nbsp;</th>
+        <td width="59%">&nbsp;</td>
       </tr>
       <tr>
         <th scope="row">Address:</th>

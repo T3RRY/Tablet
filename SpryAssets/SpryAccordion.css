@@ -36,7 +36,7 @@
 */
 .AccordionPanel {
 	margin: 0px;
-	padding: 5px;
+	padding: 0px;
 }
 
 /* This is the selector for the AccordionPanelTab. This container houses
@@ -82,11 +82,14 @@
 .AccordionPanelContent {
 	overflow: hidden;
 	margin: 0px;
-	padding: -1px;
-	padding-bottom:10px;
-	height: 220px;
-	text-align:left;
-	font-weight:bold;
+	padding-bottom: 10px;
+	height: 300px;
+	text-align: left;
+	font-weight: bold;
+	padding-top: -1px;
+	padding-right: -1px;
+	padding-left: -1px;
+	clear: right;
 }
 
 /* This is an example of how to change the appearance of the panel tab that is
